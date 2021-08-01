@@ -1,0 +1,73 @@
+---Process Operations--- "A"
+CreateProcessA
+ShellExecute
+WinExec
+GetCurrentThreadId
+ReadProcessMemory
+WriteProcessMemory
+VirtualAllocEx
+SetThreadContext
+SetProcessAffinityMask
+TerminateProcess
+ExitProcess
+---WinServices--- "B"
+CreateServiceW
+CreateServiceA
+StartServiceW
+ChangeServiceConfigA
+GetSystemDirectoryW
+GetSystemTime
+---Socket Commands--- "C"
+Send
+Recv
+WSARecv
+Connect
+---Registery APIs--- "D"
+RegOpenKeyExW
+RegQueryValueA
+RegSetValueA
+RegSetValueW
+---Anti Debug--- "E"
+IsDebuggerPresent
+OutputDebugStringA
+---Sync--- "F"
+CreateMutexA
+CreateSemaphoreW
+---Network Information--- "G"
+Gethostbyname
+InternetGetConnectedState
+---Internet Operations--- "H"
+InternetOpenUrlA
+InternetReadFile
+InternetWriteFile
+TransactNamedPipe
+DownloadFile
+---I/O APIs--- "I"
+CreatefileA
+CreatePipe
+CreateNamedPipeA
+OpenFile
+OpenFileMappingA
+WriteFile
+WriteConsoleW
+WriteFileEx
+FindFirstFileA
+FindNextFileW
+ReadFile
+ReadFileEx
+ReadConsoleA
+SetFileAttributesW
+SetConsoleMode
+---COM/OLE/DDE--- "J"
+OleCreate
+OleLoad
+CoBuildVersion
+---Hooking--- "K"
+SetWindowsHookA
+CallNextHookEx
+---Device Control--- "L"
+DeviceIoControl
+GetDriveTypeW
+---DLL APIs--- "M"
+LoadLibraryExW
+FreeLibrary
