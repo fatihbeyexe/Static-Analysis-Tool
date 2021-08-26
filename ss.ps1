@@ -1,1 +1,1 @@
-echo ADEO Stajyer HERE :)
+echo ADEO Stajyer HERE 
